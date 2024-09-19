@@ -1,0 +1,115 @@
+body {
+  background-image: url("PHOTOS/BackGround/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: rgb(60, 179, 113);
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 100px;
+}
+
+.header {
+  overflow: hidden;
+  background-color: rgb(33, 117, 7);
+}
+
+.resume {
+  text-align: center; /* Center the text within the section */
+  margin: 20px; /* Center the section */
+}
+
+.flex-container {
+  display: flex; /* Use flexbox for layout */
+  align-items: flex-start; /* Align items at the start */
+  justify-content: center; /* Center items */
+  margin: 20px auto; /* Center the container */
+}
+
+.profile-image {
+  width: 00px; /* Set a specific width for the image */
+  height: 300px; /* Set a specific height for the image */
+  margin-right: 20px; /* Space between image and box */
+  border-radius: 10px; /* Optional: round the image corners */
+}
+
+.template-box {
+  width: 90%; /* Set width to 50% */
+  height: 300px; /* Set a fixed height */
+  margin: 20px; /* Center the box horizontally */
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgb(60, 179, 113);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.template-box h2 {
+  color: rgb(60, 179, 113);
+  font-size: 24px;
+}
+
+.template-box p {
+  color: #333;
+  font-size: 18px;
+}
+
+.template-box ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* Style the logo link */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: rgb(88, 3, 3);
+  color: white;
+}
+
+.header a.active {
+  background-color: rgb(54, 54, 1);
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-Right {
+  float: right;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(153, 245, 125);
+  color: rgb(13, 151, 75);
+  text-align: center;
+}
+
+#content {
+  color: maroon;
+  text-align: justify;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 75px;
+}
