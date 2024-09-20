@@ -1,52 +1,52 @@
-body{
-    background-image: url("PHOTOS/BackGround\ 1.jpg");
+body {
+    background-image: url("PHOTOS/BackGround 1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-h1{
-    color: rgb(60, 179, 113), blue;
+h1 {
+    color: rgb(60, 179, 113);
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 100px;
-}.header {
+}
+.header {
     overflow: hidden;
     background-color: rgb(33, 117, 7);
-   
-  }
-  
-  .header img{
+}
+.header img {
     height: 50px;
     width: 50px;
-  }
-
-  .template-box {
+}
+.testimonial-box {
+    width: 80%; 
+    max-width: 600px; 
     background-color: rgba(255, 255, 255, 0.8);
     border: 2px solid rgb(60, 179, 113);
     border-radius: 5px;
-    padding: 20px;
-    margin: 20px 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 30px; 
+    margin: 20px auto; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-.template-box h2 {
+.testimonial-image {
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 50px; 
+    width: 100px; 
+    height: auto; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+
+.testimonial-box h2 {
     color: rgb(60, 179, 113);
     font-size: 24px;
 }
-
-.template-box p {
+.testimonial-box p {
     color: #333;
     font-size: 18px;
 }
-
-.template-box ul {
-    list-style-type: disc;
-    margin-left: 20px;
-}
-
-  
-  
- 
-  .header a {
+.header a {
     float: left;
     color: white;
     text-align: center;
@@ -57,43 +57,28 @@ h1{
     border-radius: 4px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-  }
-  
- 
-  .header a.logo {
+}
+.header a.logo {
     font-size: 25px;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  
-  .header a:hover {
+}
+.header a:hover {
     background-color: rgb(88, 3, 3);
     color: White;
-  }
-  
-  .header a.active {
+}
+.header a.active {
     background-color: rgb(54, 54, 1);
     color: white;
-  }
-  
-  
-  .header-Right {
+}
+.header-Right {
     float: right;
-  }
-
-  .footer{
-    position:fixed;
+}
+.footer {
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: rgb(153, 245, 125);
     color: rgb(13, 151, 75);
     text-align: center;
-  }
-  #content{
-    color: maroon;
-    text-align: justify;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 75px;
-  }  
+}

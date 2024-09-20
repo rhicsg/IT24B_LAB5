@@ -17,28 +17,28 @@ body {
   }
 
   .about {
-    text-align: center; /* Center the text within the section */
-    margin: 20px; /* Add margin around the section */
+    text-align: center; 
+    margin: 20px; 
 }
 
 .flex-container {
-    display: flex; /* Use flexbox for layout */
-    align-items: flex-start; /* Align items at the start */
-    justify-content: center; /* Center items horizontally */
-    margin: 20px auto; /* Center the container */
+    display: flex; 
+    align-items: flex-start; 
+    justify-content: center; 
+    margin: 20px auto; 
 }
 
 .template-box {
-    width: 60%; /* Set width to 60% */
-    max-width: 900px; /* Optional: limit max width for better responsiveness */
-    height: auto; /* Set to auto to allow flexibility */
-    margin: 20px; /* Add margin for spacing */
+    width: 60%; 
+    max-width: 900px; 
+    height: auto; 
+    margin: 20px; 
     background-color: rgba(255, 255, 255, 0.8);
     border: 2px solid rgb(60, 179, 113);
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    padding: 20px; /* Add padding for content */
-    text-align: center; /* Center text inside the box */
+    padding: 20px; 
+    text-align: center;
 }
 
   
@@ -57,7 +57,7 @@ body {
     margin-left: 20px;
   }
   
-  /* Style the header links */
+ 
   .header a {
     float: left;
     color: white;
@@ -71,13 +71,13 @@ body {
     font-weight: bold;
   }
   
-  /* Style the logo link */
+  
   .header a.logo {
     font-size: 25px;
     font-weight: bold;
   }
   
-  /* Change the background color on mouse-over */
+  
   .header a:hover {
     background-color: rgb(88, 3, 3);
     color: white;
@@ -88,7 +88,7 @@ body {
     color: white;
   }
   
-  /* Float the link section to the right */
+  
   .header-Right {
     float: right;
   }
